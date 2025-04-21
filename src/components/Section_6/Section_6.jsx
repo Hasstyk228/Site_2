@@ -9,14 +9,14 @@ export default function Section6 () {
   const sliderRef = useRef();
   const itemWidth = 261;
   const totalItems = items.length;
-   const images = [
-    '/photo/1.jpg',
-    '/photo/2.jpg',
-    '/photo/3.jpg',
-    '/photo/4.jpg',
-    '/photo/5.jpg',
-    '/photo/6.jpg',
-   ];
+  const images = [
+    '/Site_2/photo/1.jpg',
+    '/Site_2/photo/2.jpg',
+    '/Site_2/photo/3.jpg',
+    '/Site_2/photo/4.jpg',
+    '/Site_2/photo/5.jpg',
+    '/Site_2/photo/6.jpg',
+  ];
 
    const titles = [
     'Kaleidoscope @ Innovate Expo 2025',
@@ -109,7 +109,10 @@ export default function Section6 () {
 
                 return(
                   <div key={index}>
-                    <div className={classes.imageBlock} style={{backgroundImage:`url(${images[bgIndex]})`,}}></div>
+                    <div 
+                      className={classes.imageBlock} 
+                      style={{ backgroundImage: `url(${images[bgIndex]})`,}}>
+                    </div>
                     <h3>{titles[bgIndex]}</h3>
                     <p>Time for a coffe? Time for a conversation! The tcworld 2025 again offers</p>
                     <button>Read More</button>
