@@ -5,7 +5,7 @@ export default function Section2 () {
     return (
         <div className={classes.div}>
 
-            <button><img src="/src/photo/sec_2_btn.png" alt="btn" /></button>
+            <button><img src={`${import.meta.env.BASE_URL}/photo/sec_2_btn.png`} alt="btn" /></button>
             <h1>Software, Processes, Consulting</h1>
             <p>Pnly by using technology can organisation and processes be scaled.</p>
             <div>

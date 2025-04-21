@@ -7,7 +7,7 @@ export default function Footer () {
                 <div> {/* Section 1 */}
 
                     <div>
-                        <img src="/src/photo/logo_white.png" alt="" />
+                        <img src={`${import.meta.env.BASE_URL}/photo/logo_white.png`} alt="" />
                         <h3>KALEIDOSCOP</h3>
                     </div>
 
@@ -20,12 +20,12 @@ export default function Footer () {
                     </p>
 
                     <div>
-                        <img src="/src/photo/facebook.png" alt="" />
-                        <img src="/src/photo/twitter.png" alt="" />
-                        <img src="/src/photo/email.png" alt="" />
-                        <img src="/src/photo/instagram.png" alt="" />
-                        <img src="/src/photo/youtube.png" alt="" />
-                        <img src="/src/photo/linkedin.png" alt="" />
+                        <img src={`${import.meta.env.BASE_URL}/photo/facebook.png`} alt="" />
+                        <img src={`${import.meta.env.BASE_URL}/photo/twitter.png`} alt="" />
+                        <img src={`${import.meta.env.BASE_URL}/photo/email.png`} alt="" />
+                        <img src={`${import.meta.env.BASE_URL}/photo/instagram.png`} alt="" />
+                        <img src={`${import.meta.env.BASE_URL}/photo/youtube.png`}alt="" />
+                        <img src={`${import.meta.env.BASE_URL}/photo/linkedin.png`} alt="" />
                     </div>
 
                 </div>
