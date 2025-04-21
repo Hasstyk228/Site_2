@@ -1,0 +1,110 @@
+.div{
+    border: 0px solid;
+    margin: 10px -8px 0px -8px;
+    height: 880px;
+    display: grid;
+    place-items: center;
+    background-image: url('/src/photo/background_4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & *{
+        border: 0px solid;
+        font-family: 'Nunito', sans-serif;
+        margin: 1px;
+    }
+}
+
+.form_div{
+    width: min(95%,800px);
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));    
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    grid-template-areas:
+    "h1 h1"
+    "name email"
+    "phone company"
+    "message message"
+    "cheked cheked"
+    "send send"
+    ;
+
+    & *{
+        height: 45px;
+        border-radius: 6px;
+        padding-left: 10px;
+        border: 2px solid rgb(194, 194, 194);
+        background-color: rgb(255, 255, 255);
+    }
+
+    & *::placeholder{
+        color: black;
+    }
+
+    &>:nth-child(1){ /*Call Me Back*/
+        grid-area: h1;
+        border: 0px solid;
+        text-align: center;
+        font-size: min(11vw,50px);
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    &>:nth-child(2){ /*Full Name*/
+        grid-area: name;
+    }
+
+    &>:nth-child(3){ /*Email*/
+        grid-area: email;
+    }
+
+    &>:nth-child(4){ /*Phone No*/
+        grid-area: phone;
+    }
+
+    &>:nth-child(5){ /*Company*/
+        grid-area: company;
+    }
+
+    &>:nth-child(6){ /*Mesage*/
+        grid-area: message;
+        height: max-content;
+        padding-bottom: 100px;
+        padding-top: 10px;
+        display: flex;
+        text-align: start;
+        align-content: start;
+    }
+
+    &>:nth-child(7){ /*Checked*/
+        grid-area: cheked;
+        display: flex;
+        align-items: center;
+        height: max-content;
+        border: 0px solid;
+        background-color: rgba(255, 255, 255, 0);
+        
+        &>*{
+            height: max-content;
+            border: 0px solid;
+            background-color: rgba(255, 255, 255, 0);
+        }
+    }
+
+    &>:nth-child(8){ /*Send*/
+        grid-area: send;
+        width: max-content;
+        justify-self: center;
+        padding: 10px 50px;
+        margin-top: -10px;
+        border: 1px solid rgb(255, 109, 25);
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 109, 25);
+        cursor: pointer;
+    }
+
+}
+
+

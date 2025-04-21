@@ -1,0 +1,38 @@
+.div{
+    margin: -8px;
+    border: 0px solid;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    height: max-content;
+    display: grid;
+
+    &> *{
+        font-family: 'Nunito', sans-serif;
+        border: 1px solid;
+        margin: auto;
+        width: 80%;
+        height: max-content;
+        padding: min(11vw,130px) 20px;
+        border-radius: 200px;
+        text-align: center;
+        align-content: center;
+        font-size: min(4vw,36px);
+        color: aliceblue;
+        background-image: url('/src/photo/section_back_1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/*////////////////////////////////////*/
+
+@media (min-width: 1400px)  {
+    .div{
+        &> *{
+            width: 1110px !important;
+        }
+    }
+} 
+
+/*////////////////////////////////////*/
