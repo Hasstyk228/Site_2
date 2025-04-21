@@ -19,7 +19,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background-image: url('/src/photo/background_2.jpg');
+        background-image: url('/photo/background_2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         top: 0;
@@ -128,19 +128,19 @@
 
             .translate_div{
 
-                background-image: url('/src/photo/translate_white.png');
+                background-image: url('/photo/translate_white.png');
 
             }
             
             .vocabular_div{
 
-                background-image: url('/src/photo/vocabular_white.png');
+                background-image: url('/photo/vocabular_white.png');
 
             }
             
             .write_div{
 
-                background-image: url('/src/photo/writing_white.png');
+                background-image: url('/photo/writing_white.png');
 
             }
         }
@@ -231,7 +231,7 @@
 .translate_div{
     width: 45px;
     height: 45px;
-    background-image: url('/src/photo/translate_black.png');
+    background-image: url('/photo/translate_black.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -239,7 +239,7 @@
 .vocabular_div{
     width: 45px;
     height: 45px;
-    background-image: url('/src/photo/vocabular_black.png');
+    background-image: url('/photo/vocabular_black.png');
     background-repeat: no-repeat;
     background-size: contain; 
 }
@@ -247,7 +247,7 @@
 .write_div{
     width: 45px;
     height: 45px;
-    background-image: url('/src/photo/writing_black.png');
+    background-image: url('/photo/writing_black.png');
     background-repeat: no-repeat;
     background-size: contain;
 }

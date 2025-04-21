@@ -39,7 +39,7 @@
             }
 
             &>:nth-child(2){
-                background-image: url('/src/photo/prev_gry.png');
+                background-image: url('/photo/prev_gry.png');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -50,12 +50,12 @@
 
             &>:nth-child(2):hover{
                 background-color: rgb(255, 109, 25);
-                background-image: url('/src/photo/prev_white.png');
+                background-image: url('/photo/prev_white.png');
                 border: 1px solid rgb(255, 109, 25);
             }
 
             &>:nth-child(3){
-                background-image: url('/src/photo/next_gry.png');
+                background-image: url('/photo/next_gry.png');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -66,7 +66,7 @@
 
             &>:nth-child(3):hover{
                 background-color: rgb(255, 109, 25);
-                background-image: url('/src/photo/next_white.png');
+                background-image: url('/photo/next_white.png');
                 border: 1px solid rgb(255, 109, 25);
             }
         }

@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: url('/src/photo/background_3.jpg');
+    background-image: url('/photo/background_3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@
 .div_imag{
     width: 200px;
     height: 60px;
-    background-image: url('/src/photo/eurocom.png');
+    background-image: url('/photo/eurocom.png');
     background-repeat: no-repeat;
     background-size: 190%;
     background-position: center;
@@ -108,7 +108,7 @@
     .div_imag{
         width: 200px;
         height: 60px;
-        background-image: url('/src/photo/eurocom.png');
+        background-image: url('/photo/eurocom.png');
         background-repeat: no-repeat;
         background-size: 190%;
         background-position: center;
@@ -147,7 +147,7 @@
     .div_imag{
         width: 150px;
         height: 60px;
-        background-image: url('/src/photo/eurocom.png');
+        background-image: url('/photo/eurocom.png');
         background-repeat: no-repeat;
         background-size: 190%;
         background-position: center;
@@ -183,7 +183,7 @@
         .div_imag{
         width: 150px;
         height: 60px;
-        background-image: url('/src/photo/eurocom.png');
+        background-image: url('/photo/eurocom.png');
         background-repeat: no-repeat;
         background-size: 190%;
         background-position: center;

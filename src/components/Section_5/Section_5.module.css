@@ -18,7 +18,7 @@
         align-content: center;
         font-size: min(4vw,36px);
         color: aliceblue;
-        background-image: url('/src/photo/section_back_1.jpg');
+        background-image: url('/photo/section_back_1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
