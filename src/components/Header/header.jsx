@@ -35,7 +35,7 @@ export default function Header () {
     return(
         <div className={classes.div}>
 
-            <img src="/src/photo/logo.png" alt="img" className={classes.img_logo} />
+            <img src="/photo/logo.png" alt="img" className={classes.img_logo} />
 
             <p className={classes.name_site}>KALEIDOSCOPE</p>
 
@@ -53,21 +53,21 @@ export default function Header () {
 
             <button>Contact Us</button>
 
-            <img src="/src/photo/search.png" alt="srch" className={classes.img_search} onClick={changeBack} />
+            <img src="/photo/search.png" alt="srch" className={classes.img_search} onClick={changeBack} />
 
             <div className={classes.lang_div}>
                 <details>
-                    <summary><img src="/src/photo/internet.png" alt="img" className={classes.img_internet}/></summary>
+                    <summary><img src="/photo/internet.png" alt="img" className={classes.img_internet}/></summary>
                     <p>eng</p>
                     <p>rus</p>
                 </details>
             </div>
             <div className={classes.div_menu}>
-                <img src="/src/photo/menu.png" alt="menu" className={classes.menu} onClick={changeMenu}/>
+                <img src="/photo/menu.png" alt="menu" className={classes.menu} onClick={changeMenu}/>
             </div>
 
             <div className={classes.list_menu} style={{right:width}}>
-                <button><img src="/src/photo/exit.png" alt="exit" onClick={changeMenu}/></button>
+                <button><img src="/photo/exit.png" alt="exit" onClick={changeMenu}/></button>
                 <p>SHOP</p>
                 <p>REFERENCES</p>
                 <p>NEWS</p>
