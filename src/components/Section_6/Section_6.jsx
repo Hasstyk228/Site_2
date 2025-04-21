@@ -10,12 +10,12 @@ export default function Section6 () {
   const itemWidth = 261;
   const totalItems = items.length;
    const images = [
-    '/photo/photo/1.jpg',
-    '/photo/photo/2.jpg',
-    '/photo/photo/3.jpg',
-    '/photo/photo/4.jpg',
-    '/photo/photo/5.jpg',
-    '/photo/photo/6.jpg',
+    '/photo/1.jpg',
+    '/photo/2.jpg',
+    '/photo/3.jpg',
+    '/photo/4.jpg',
+    '/photo/5.jpg',
+    '/photo/6.jpg',
    ];
 
    const titles = [
