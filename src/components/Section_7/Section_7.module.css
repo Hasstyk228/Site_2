@@ -14,6 +14,10 @@
         font-family: 'Nunito', sans-serif;
         margin: 1px;
     }
+
+    & *:focus{
+        outline: none;
+    }
 }
 
 .form_div{
@@ -84,13 +88,47 @@
         align-items: center;
         height: max-content;
         border: 0px solid;
-        background-color: rgba(255, 255, 255, 0);
+        background-color: rgba(197, 22, 22, 0);
         
         &>*{
             height: max-content;
             border: 0px solid;
             background-color: rgba(255, 255, 255, 0);
         }
+    }
+
+    .content{
+        &>:nth-child(1)[type="checkbox"] {
+            /* Убираем нативный стиль */
+            appearance: none;
+            /* Задаём размеры и форму круга */
+            width: 20px;
+            height: 20px;
+            border: 2px solid #666;
+            border-radius: 50%;  /* круг */
+            cursor: pointer;
+            position: relative;
+            outline: none;
+          }
+
+          &>:nth-child(1):checked {
+            background-color: #049fff; /* фон круга при чекнутом */
+            border-color: #049fff;
+          }
+
+          &>:nth-child(1)[type="checkbox"]:checked::after {
+            content: "";
+            position: absolute;
+            top: 10%;
+            left: 30%;
+            width: 4px;
+            height: 8px;
+            border: solid #fff;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+          }
+
+        
     }
 
     &>:nth-child(8){ /*Send*/
@@ -103,6 +141,11 @@
         color: rgb(255, 255, 255);
         background-color: rgb(255, 109, 25);
         cursor: pointer;
+        transition: .2s;
+    }
+    
+    &>:nth-child(8):active{
+        background-color: rgb(208, 76, 0);
     }
 
 }

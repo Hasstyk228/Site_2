@@ -151,6 +151,11 @@
             color: aliceblue;
             border: 1px solid rgb(255, 109, 25);
             cursor: pointer;
+            transition: .2s;
+        }
+
+        &> button:active{
+            background-color: rgb(208, 76, 0);
         }
 
     }
@@ -190,6 +195,7 @@
     .div{
 
         margin-top: -10%;
+        margin-bottom: -100px;
 
         &>:nth-child(1){
 

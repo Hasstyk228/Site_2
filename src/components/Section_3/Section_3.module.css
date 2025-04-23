@@ -61,6 +61,11 @@
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
+    transition: .2s;
+}
+
+.button:active{
+    background-color: rgb(208, 76, 0);
 }
 
 /*////////////////////////////////////////////////////*/
@@ -144,6 +149,7 @@
         font-size: 14px;
         border-radius: 10px;
     }
+
     .div_imag{
         width: 150px;
         height: 60px;
